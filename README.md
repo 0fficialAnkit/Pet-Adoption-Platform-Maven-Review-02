@@ -44,6 +44,14 @@ The **Pet Adoption Platform** is a web application that connects shelters with p
 -├── pom.xml
 -└── README.md
 
+Main.java: Main entry point of the application.
+Admin.java: Handles admin functionalities such as user management.
+Shelter.java: Manages pet listings and adoption applications.
+Adopter.java: Handles adopter functionalities like browsing pets and applying for adoption.
+Pet.java: Represents a pet.
+AdoptionApplication.java: Represents an adoption application.
+
+
 ## **Features**
 1. Admin Dashboard
 User Management: Add, update, or delete users (Admins, Shelters, Adopters).
