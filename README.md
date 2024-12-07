@@ -1,6 +1,7 @@
 🐾 Pet Adoption Platform 🐾
 A responsive and interactive platform for shelters, adopters, and administrators to simplify the pet adoption process. The platform offers a seamless experience to browse, adopt, and manage pet adoptions with stunning visuals and animations.
 
+
 ✨ Features
 🔑 Admin:
 User Management: Add, update, and delete user accounts.
