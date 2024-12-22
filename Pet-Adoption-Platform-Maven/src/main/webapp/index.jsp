@@ -1,25 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Pet Adoption Platform</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <img src="pet-banner.jpg" alt="Adopt a Pet" />
-        </div>
-        <div class="right">
-            <h1>Login</h1>
-            <form action="/login" method="post">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <button type="submit">Login</button>
-            </form>
-        </div>
+    <div class="container text-center mt-5">
+        <h1>Welcome to the Pet Adoption Platform</h1>
+        <p>Find your perfect furry friend today!</p>
+        <a href="login.jsp" class="btn btn-primary">Login</a>
+        <a href="register.jsp" class="btn btn-success">Register</a>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
